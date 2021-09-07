@@ -41,5 +41,5 @@ class erlang (
     }
   }
 
-  package { $package_name: ensure => $version, }
+  package { $package_name: ensure  => $version, }
 }
